@@ -1,0 +1,5 @@
+[25-Feb-2012 17:40:48] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/squiferc/public_html/temp/php/include/class.sql_functions.php on line 10
+[25-Feb-2012 17:40:48] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/squiferc/public_html/temp/php/include/class.sql_functions.php on line 29
+[25-Feb-2012 17:40:48] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/squiferc/public_html/temp/php/include/class.sql_functions.php on line 15
+[25-Feb-2012 17:40:48] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'squiferc'@'localhost' (using password: NO) in /home/squiferc/public_html/temp/php/include/class.sql_functions.php on line 16
+[25-Feb-2012 17:40:48] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/squiferc/public_html/temp/php/include/class.sql_functions.php on line 16

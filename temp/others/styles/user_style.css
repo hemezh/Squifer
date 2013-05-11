@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#signUpForm{
+	background:#fff;
+	font-family:'Lucida Grande', Verdana, Arial, sans-serif;
+	font-size:13px;
+	margin:0 auto;
+	width:550px;
+}
+.fieldName{
+	color:#333;
+	line-height:37px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, .75);
+}
+.inputBox{
+	color:#072330;
+	padding:25px 20px;
+	background-color:#fff;		
+	-webkit-box-shadow:0 0px 4px rgba(0, 0, 0, 0.3), 0 0 62px rgba(0, 0, 0, 0.07) inset;
+	-moz-box-shadow:0 0px 4px rgba(0, 0, 0, 0.3), 0 0 62px rgba(0, 0, 0, 0.07) inset;
+	box-shadow:0 0px 4px rgba(0, 0, 0, 0.3), 0 0 62px rgba(0, 0, 0, 0.07) inset;
+	
+	border:1px solid transparent;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.inputWrap{
+	height:auto;
+}
+.textarea{
+	float: right;
+	margin-top: -33px;
+	margin-right: -5px;
+	font-size: 1.0em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-top: 1px solid #575757;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid #575757;
+	padding: 4px;
+	color: #4C4C4C;
+	background: #fff;
+	box-shadow:0.9px 2px 9px #D7D7D7 inset;
+}
+.input{
+	float: right;
+	margin-top: -33px;
+	margin-right: -5px;
+	font-size: 1.0em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 333px;
+	border-top: 1px solid #575757;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid #575757;
+	height: 30px;
+	padding: 4px;
+	color: #4C4C4C;
+	background: #fff;
+	box-shadow:0.9px 2px 9px #D7D7D7 inset;
+}
+.button{
+	margin: 0;
+	padding: 0 0 0 15px;
+	height: 34px;
+	width:20px;
+	line-height: 32px;
+	background: url('../images/btn_style.png') no-repeat 0 0;
+	background-color: #EEE;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, .75);
+	color: #222;
+	border:none;
+	outline:none;
+margin-top: 70px;
+}
+.button div {
+	height: 34px;
+	width:44px;
+	padding: 0 15px 0 0;
+	background: url('../images/btn_style.png') right 0;
+	background-color: #EEE;
+	border: 0 none;
+}
+.err1{
+	background:#FFE1E1;
+	color:#9B2E51;
+	float:right;
+	margin-bottom:10px;
+}
+#errors{
+	display:none;
+	margin:-5px 7px 5px 5px;
+	padding:20px 5px 35px 15px;
+	background:#FFE1E1;
+	color:#9B2E51;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}

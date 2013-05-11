@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^new/([^/\.]+)/?$ news.php?page=$1

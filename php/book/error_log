@@ -1,0 +1,5 @@
+[25-Feb-2012 17:51:29] PHP Fatal error:  Call to undefined method book::getBookRating() in /home/squiferc/public_html/php/book/index.php on line 8
+[25-Feb-2012 18:12:16] PHP Fatal error:  Using $this when not in object context in /home/squiferc/public_html/php/book/index.php on line 126
+[13-Mar-2012 17:09:39] PHP Fatal error:  Call to undefined method book::getDescription() in /home/squiferc/public_html/php/book/index.php on line 155
+[16-Mar-2012 09:18:55] PHP Parse error:  syntax error, unexpected ';' in /home/squiferc/public_html/php/book/index.php on line 127
+[16-Mar-2012 09:19:16] PHP Fatal error:  Call to undefined method book::getName() in /home/squiferc/public_html/php/book/index.php on line 127

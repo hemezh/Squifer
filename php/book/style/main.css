@@ -1,0 +1,43 @@
+*{
+	margin:0;
+}
+.description{
+	background:#efefef;
+	border-radius:3px;
+	padding:10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+}
+.bookTitle{
+	font-size:24px;
+}
+.bookThumbnail{
+	background-color: #fff;
+	margin: -20px 0 20px 0;
+	padding: 8px;
+	line-height: 1;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.thumbnail{
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.075);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.075);
+}
+.avgRatingMsg{
+	margin-left:50px;
+}
+.avgRating{
+	margin-left:60px;
+}
+.label{
+	padding: 3px;
+	color: #08c;
+	background-color: #fff;
+}

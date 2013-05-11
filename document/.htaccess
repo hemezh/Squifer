@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^([^/\.]+)/([^/\.]+)?$ index.php?type=book&bookId=$1 [L]
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ index.php?type=book&bookId=$1 [L]

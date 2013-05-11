@@ -1,0 +1,24 @@
+[17-Jan-2012 21:48:43] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:03:15] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:03:39] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:15:28] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:15:29] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:15:30] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:15:30] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:15:30] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[17-Jan-2012 22:48:37] PHP Warning:  ftp_pwd() [<a href='function.ftp-pwd'>function.ftp-pwd</a>]: Please login with USER and PASS. in /home/squiferc/public_html/labs/test.php on line 8
+[17-Jan-2012 22:53:16] PHP Warning:  ftp_login() [<a href='function.ftp-login'>function.ftp-login</a>]: Permission denied. in /home/squiferc/public_html/labs/test.php on line 9
+[17-Jan-2012 22:53:17] PHP Warning:  ftp_pwd() [<a href='function.ftp-pwd'>function.ftp-pwd</a>]: Please login with USER and PASS. in /home/squiferc/public_html/labs/test.php on line 10
+[17-Jan-2012 22:56:36] PHP Warning:  ftp_login() [<a href='function.ftp-login'>function.ftp-login</a>]: Permission denied. in /home/squiferc/public_html/labs/test.php on line 9
+[17-Jan-2012 22:56:36] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, boolean given in /home/squiferc/public_html/labs/test.php on line 10
+[17-Jan-2012 22:56:50] PHP Warning:  ftp_login() [<a href='function.ftp-login'>function.ftp-login</a>]: Permission denied. in /home/squiferc/public_html/labs/test.php on line 9
+[17-Jan-2012 22:56:51] PHP Warning:  ftp_pwd() [<a href='function.ftp-pwd'>function.ftp-pwd</a>]: Please login with USER and PASS. in /home/squiferc/public_html/labs/test.php on line 10
+[17-Jan-2012 22:59:15] PHP Warning:  ftp_login() [<a href='function.ftp-login'>function.ftp-login</a>]: Permission denied. in /home/squiferc/public_html/labs/test.php on line 9
+[17-Jan-2012 22:59:15] PHP Warning:  ftp_pwd() [<a href='function.ftp-pwd'>function.ftp-pwd</a>]: Please login with USER and PASS. in /home/squiferc/public_html/labs/test.php on line 10
+[17-Jan-2012 22:59:28] PHP Warning:  ftp_login() [<a href='function.ftp-login'>function.ftp-login</a>]: Permission denied. in /home/squiferc/public_html/labs/test.php on line 9
+[17-Jan-2012 22:59:29] PHP Warning:  ftp_pwd() [<a href='function.ftp-pwd'>function.ftp-pwd</a>]: Please login with USER and PASS. in /home/squiferc/public_html/labs/test.php on line 10
+[17-Jan-2012 23:04:10] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/labs/test.php on line 10
+[18-Jan-2012 00:05:22] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/labs/test.php on line 10
+[18-Jan-2012 09:43:47] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/labs/test.php on line 10
+[18-Jan-2012 18:37:52] PHP Fatal error:  Call to undefined function ssh2_connect() in /home/squiferc/public_html/labs/test.php on line 2
+[18-Jan-2012 18:49:32] PHP Warning:  ftp_mkdir() [<a href='function.ftp-mkdir'>function.ftp-mkdir</a>]: Create directory operation failed. in /home/squiferc/public_html/labs/test.php on line 11

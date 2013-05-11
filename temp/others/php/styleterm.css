@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face { font-family: 'sensation_reg';
+		src:url('fonts/Sansation_Regular.ttf') format('truetype');
+		font-weight: normal; font-style: normal;
+		}
+@font-face { font-family: 'steward';
+		src:url('../fonts/steward.ttf') format('truetype');
+		font-weight: normal; font-style: normal;
+		}
+@font-face{
+	font-family:'teuton21pro';
+	src:url('../fonts/teuton21pro-webfont.ttf') format('truetype');
+		font-weight: normal; font-style: normal;
+}
+*{
+	margin:0;
+}
+.clickable{
+	cursor:pointer;
+}
+body{
+	background-color:#0F3;
+	font-family: "Lucida Grande", sans-serif;
+	overflow:hidden;
+	margin: 25px 50px;
+}
+ol,ul{
+	list-style:none;
+	margin:0;
+}
+iframe{
+	height:inherit;
+	width:inherit;
+}
+.button{
+	padding:5px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, .75);
+}
+#header,#footer{
+	background:#2D2D2D;
+	position:fixed;
+	height:60px;
+	width:100%;
+	min-width:1080px;
+}
+#header{
+	top:0;
+}
+#topMenu1{
+	background: url('../images/btn_style.png') -2px 0.9px;
+	right: 50px;
+	height: 25px;
+	width: 50px;
+	position: absolute;
+	top:0;
+	height: 32px;
+	padding: 0px 15px 0 0;
+}
+.menuText{
+	font-size:13px;
+	padding:10px;
+}
+#menu{
+	background:#FFF;
+	height:50px;
+	width:100%;
+	min-width:1082px;
+	box-shadow:0 0 1px #000;
+}
+#menu-right-buttons{
+	position:absolute;
+	margin:0 45px;
+	height:30px;
+	width:229px;
+	right:-45px;
+	top :75px;
+}
+#menu-right-buttons > span{
+	background:#E6E6E6;
+	box-shadow:0 0 1px #000;
+	margin-right:15px;
+	color:#424242;
+	padding: 5px 30px;
+}
+#main{
+	min-height:500px;
+}
+#leftSidePane{
+	background:#FFF;
+	height:580px;
+	width:175px;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:60px 0 0 ;
+	box-shadow:0 0 1px #000;
+	padding:10px;
+}
+#leftNav{
+	padding:0;
+	margin:0px 0 0 0;
+	color:#575757;
+	font-size:15px;
+}
+#leftNav > li{
+	padding:3px;
+	height:20px;
+	border-radius:4px;
+	line-height:20px;
+	letter-spacing:1px;
+}
+#tabsPane{
+	position:fixed;
+	top:60px;
+	width:1165px;
+	left:197px;
+	display:none;
+	background:#FFF;
+	padding:10px 0 0;
+}
+#tabs > li{
+	height:20px;
+	display:inline-block;
+	padding:3px 20px;
+	margin:0 3px ;
+}
+#tabs > li:hover {
+	background:#D8D8D8;
+}
+#contentPane{
+	height:530x;
+	width:1165px;
+	top:60px;
+	left:197px;
+	background-color:#E6E6E6;
+	position:fixed;
+	overflow:hidden;
+}
+#contentPane > div{
+	width:1165px;
+	height:inherit;
+}
+#pagePane{
+	overflow:scroll;
+	margin:0 auto;
+	position:relative;
+	height:580px;
+	width:850px;
+	overflow-x:hidden;
+}
+.pageElement{
+	width:850px;
+	height:1200px;
+	padding:24px;
+}
+#footer{
+	bottom:0;
+}

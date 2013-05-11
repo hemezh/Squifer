@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /scripts
+Disallow: /php
+Disallow: /files
+Disallow: /styles
+Disallow: /fonts
+Disallow: /images
+Disallow: /temp

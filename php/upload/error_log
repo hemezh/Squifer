@@ -1,0 +1,66 @@
+[19-Dec-2011 16:56:44] PHP Warning:  copy(../../files/tmp/Dan Brown - The Lost Symbol .pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 15
+[19-Dec-2011 16:56:44] PHP Warning:  rename(../../files/pdf/Dan Brown - The Lost Symbol .pdf,../../files/pdf/f40bbd75c9::Dan Brown - The Lost Symbol .pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 18
+[19-Dec-2011 17:03:48] PHP Warning:  rename(Dan Brown - The Da Vinci Code.pdf,../../files/pdf/b57f77c9be::Dan Brown - The Da Vinci Code.pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 20
+[19-Dec-2011 17:57:06] PHP Warning:  rename(Three_Mistakes_of_My_Life.pdf,../../files/pdf/e725ab17fa::Three_Mistakes_of_My_Life.pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 19
+[20-Dec-2011 00:07:48] PHP Warning:  POST Content-Length of 9433255 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[20-Dec-2011 22:00:46] PHP Warning:  POST Content-Length of 19934411 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[20-Dec-2011 22:06:30] PHP Warning:  POST Content-Length of 19934411 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[18-Jan-2012 18:50:00] PHP Parse error:  syntax error, unexpected T_IF in /home/squiferc/public_html/php/upload/handleFTP.php on line 15
+[18-Jan-2012 18:50:47] PHP Warning:  ftp_mkdir() [<a href='function.ftp-mkdir'>function.ftp-mkdir</a>]: Create directory operation failed. in /home/squiferc/public_html/php/upload/handleFTP.php on line 11
+[18-Jan-2012 18:59:33] PHP Warning:  ftp_put(../../files/pdf/book_id) [<a href='function.ftp-put'>function.ftp-put</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/handleFTP.php on line 16
+[18-Jan-2012 18:59:33] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 22
+[18-Jan-2012 19:00:34] PHP Warning:  ftp_put(../../files/pdf/book_id) [<a href='function.ftp-put'>function.ftp-put</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/handleFTP.php on line 16
+[18-Jan-2012 19:00:34] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 22
+[18-Jan-2012 19:00:57] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 22
+[18-Jan-2012 19:01:47] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 22
+[18-Jan-2012 19:05:44] PHP Warning:  ftp_exec() [<a href='function.ftp-exec'>function.ftp-exec</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 22
+[18-Jan-2012 19:10:17] PHP Warning:  ftp_put() [<a href='function.ftp-put'>function.ftp-put</a>]: Filename cannot be empty in /home/squiferc/public_html/php/upload/handleFTP.php on line 16
+[18-Jan-2012 19:14:15] PHP Warning:  ftp_site() [<a href='function.ftp-site'>function.ftp-site</a>]: Unknown SITE command. in /home/squiferc/public_html/php/upload/handleFTP.php on line 23
+[18-Jan-2012 19:23:28] PHP Warning:  ftp_nlist() expects exactly 2 parameters, 0 given in /home/squiferc/public_html/php/upload/handleFTP.php on line 11
+[18-Jan-2012 21:08:53] PHP Warning:  exec() has been disabled for security reasons in /home/squiferc/public_html/php/upload/handleFTP.php on line 2
+[18-Jan-2012 21:17:05] PHP Warning:  exec() has been disabled for security reasons in /home/squiferc/public_html/php/upload/handleFTP.php on line 2
+[19-Jan-2012 21:44:08] PHP Warning:  copy(../../files/tmp/interview.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 16
+[19-Jan-2012 21:44:08] PHP Warning:  rename(../../files/pdf/interview.pdf,../../files/pdf/f9b8f44aba) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 19
+[20-Jan-2012 17:30:54] PHP Warning:  copy(../../files/tmp/interview.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 24
+[20-Jan-2012 17:30:54] PHP Warning:  rename(../../files/pdf/interview.pdf,../../files/pdf/9bbb9edbe7) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 27
+[20-Jan-2012 17:33:27] PHP Warning:  copy(../../files/tmp/interview.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 24
+[20-Jan-2012 17:33:27] PHP Warning:  rename(../../files/pdf/interview.pdf,../../files/pdf/46742d330e) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 27
+[20-Jan-2012 18:10:31] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:11:05] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:11:45] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:12:49] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:15:23] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:15:45] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:17:48] PHP Fatal error:  Call to undefined function phpsession_start() in /home/squiferc/public_html/php/upload/index.php on line 1
+[20-Jan-2012 18:24:25] PHP Warning:  include(./handleFTP.php?bookId=783f4717f4) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 5
+[20-Jan-2012 18:24:25] PHP Warning:  include(./handleFTP.php?bookId=783f4717f4) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 5
+[20-Jan-2012 18:24:25] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening './handleFTP.php?bookId=783f4717f4' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/squiferc/public_html/php/upload/process.php on line 5
+[21-Jan-2012 10:31:23] PHP Warning:  opendir(../../files/images/9683a4bf42) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 19
+[21-Jan-2012 10:31:23] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/squiferc/public_html/php/upload/process.php on line 22
+[21-Jan-2012 10:31:23] PHP Fatal error:  Call to a member function encrypt() on a non-object in /home/squiferc/public_html/php/upload/process.php on line 27
+[21-Jan-2012 10:32:57] PHP Warning:  opendir(../../files/images/72a3578769) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 19
+[21-Jan-2012 10:32:57] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/squiferc/public_html/php/upload/process.php on line 22
+[21-Jan-2012 10:32:57] PHP Fatal error:  Call to a member function encrypt() on a non-object in /home/squiferc/public_html/php/upload/process.php on line 27
+[21-Jan-2012 10:35:07] PHP Warning:  rename(../../files/images/fc234ec8d2/p1.png,../../files/images/fc234ec8d2/952cf373eb.png) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 35
+[21-Jan-2012 10:35:07] PHP Warning:  rename(../../files/images/fc234ec8d2/p2.png,../../files/images/fc234ec8d2/c695ab3d2a.png) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 35
+[04-Feb-2012 01:39:20] PHP Warning:  rename(../../files/pdf/supp_form.pdf,../../files/pdf/b79bda66b2) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 70
+[04-Feb-2012 01:40:27] PHP Warning:  copy(../../files/tmp/supp_form.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 67
+[04-Feb-2012 01:40:27] PHP Warning:  rename(../../files/pdf/supp_form.pdf,../../files/pdf/b79bda66b2) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 70
+[04-Feb-2012 01:40:44] PHP Warning:  copy(../../files/tmp/supp_form.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 67
+[04-Feb-2012 01:40:44] PHP Warning:  rename(../../files/pdf/supp_form.pdf,../../files/pdf/b79bda66b2) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 70
+[04-Feb-2012 01:50:41] PHP Warning:  copy(../../files/tmp/qaemt.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 67
+[04-Feb-2012 01:50:41] PHP Warning:  rename(../../files/pdf/qaemt.pdf,../../files/pdf/73934c3577.pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 70
+[06-Feb-2012 12:55:09] PHP Warning:  POST Content-Length of 10242338 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Feb-2012 12:57:04] PHP Warning:  POST Content-Length of 27949723 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Feb-2012 12:58:58] PHP Warning:  POST Content-Length of 10242338 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Mar-2012 00:08:46] PHP Warning:  copy(../../files/tmp/7.1.1_Boolean_basics.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 67
+[01-Mar-2012 00:08:46] PHP Warning:  rename(../../files/pdf/7.1.1_Boolean_basics.pdf,../../files/pdf/9d0f4b3fec.pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 70
+[01-Mar-2012 00:21:59] PHP Warning:  copy(../../files/tmp/7.1.1_Boolean_basics.pdf) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 79
+[01-Mar-2012 00:21:59] PHP Warning:  rename(../../files/pdf/7.1.1_Boolean_basics.pdf,../../files/pdf/b2893bf88c.pdf) [<a href='function.rename'>function.rename</a>]: No such file or directory in /home/squiferc/public_html/php/upload/process.php on line 82
+[01-Mar-2012 00:28:06] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /home/squiferc/public_html/php/include/class.book.php on line 70
+[01-Mar-2012 18:11:00] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/squiferc/public_html/php/include/class.book.php on line 282
+[01-Mar-2012 18:34:33] PHP Fatal error:  Call to a member function getCategoryList() on a non-object in /home/squiferc/public_html/php/upload/form.php on line 54
+[01-Mar-2012 18:35:25] PHP Fatal error:  Call to a member function getCategoryList() on a non-object in /home/squiferc/public_html/php/upload/form.php on line 54
+[04-Mar-2012 19:11:47] PHP Warning:  POST Content-Length of 19012694 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Mar-2012 21:11:09] PHP Warning:  POST Content-Length of 20559764 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Mar-2012 21:11:37] PHP Warning:  POST Content-Length of 14672620 bytes exceeds the limit of 8388608 bytes in Unknown on line 0

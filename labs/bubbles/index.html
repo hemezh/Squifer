@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yet Another HTML5 Project</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="processing-1.3.6.js"></script>
+		<style>
+			li {
+				list-style: none;
+			}
+			li a {
+				text-decoration: none;
+				color: #000;
+				margin: 10px;
+				width: 150px;
+				border: 3px dashed #999;
+				background: #eee;
+				padding: 10px;
+				display: block;
+			}
+			*[draggable=true] {
+				-moz-user-select: none;
+				-khtml-user-drag: element;
+				cursor: move;
+			}
+			*:-khtml-drag {
+				background-color: rgba(238,238,238, 0.5);
+			}
+			ul {
+				margin-left: 200px;
+				min-height: 300px;
+			}
+			li.over {
+				border-color: #333;
+				background: #ccc;
+			}
+			#selected {
+
+				height: 250px;
+				width: 350px;
+				float: left;
+				border: 2px solid #333;
+				position: relative;
+				margin-top: -10px;
+			}
+			#selected p {
+				font-weight: bold;
+				text-align: center;
+				position: absolute;
+				bottom: 20px;
+				width: 166px;
+				font-size: 32px;
+				color: #fff;
+				text-shadow: #000 2px 2px 2px;
+			}
+			body {
+				background: #F4F4F4;
+				margin: 0;
+				font: 8pt /14pt 'sensation', Verdana, Helvetica, sans-serif;
+				-moz-user-select: -moz-none;
+				-khtml-user-select: none;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+			#headerTop {
+				height: 90px;
+				background: url('images/body-bg.jpg');
+				width: 100%;
+				position: fixed;
+				top: 0;
+				z-index: 10000;
+				-webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+				box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+			}
+			#header {
+				background: no-repeat transparent bottom left;
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				border: 0;
+				padding: 0;
+			}
+			#headerWrapper {
+
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+				height: 100%;
+			}
+			.title {
+				font-size: 21px;
+				font-weight: bold;
+				letter-spacing: 1px;
+				font-variant: small-caps;
+				color: #5C4F00;
+				background: #000000;
+				width: 100%;
+			}
+			#wrap {
+				background: #fff repeat-x top left;
+				background-position: 0 50px;
+				width: 844px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
+			}
+			#container {
+				margin-right: 25%;
+			}
+			#content {
+				background: transparent;
+				width: 429px;
+				height: 400px;
+				overflow: hidden;
+				margin-top: 0;
+				padding: 21px;
+				color: #708FA8;
+				text-align: justify;
+				float: right;
+			}
+			.content {
+				color: #6C6C6C;
+				background: #FDFDFD;
+				padding: 21px;
+				width:auto;
+				text-align: justify;
+				font: 10pt /12pt tahoma;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+			}
+			#footer {
+				display: none;
+				background: #2D2D2D;
+				position: fixed;
+				bottom: 0;
+				height: 60px;
+				width: 100%;
+				padding: 9px;
+				text-align: right;
+				text-transform: lowercase;
+				font: 8pt /14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+				color: #333333;
+				float: right;
+				z-index: 0;
+			}
+			.content > p {
+			}
+			#topWrapper {
+				background: url('images/header.jpg') no-repeat;
+				height: inherit;
+				width: inherit;
+				margin: 0 auto;
+				background-repeat: none;
+			}
+			.she {
+
+				background: #B22D66;
+				padding: 10px;
+				box-shadow: 0 0 20px #777;
+				color: #DDD;
+				font-size: 22px;
+				text-shadow: 0 0 2px white;
+			}
+			#selected {
+				background: #f7f7f7;
+				padding: 10px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+			}
+			.he {
+				padding: 20px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+				background: #ffffff;
+			}
+			#foot {
+				padding: 7px 0 7px 20px;
+				background: #424242;
+				color: #D1D1D1;
+			}
+			article{
+				font-size: 20px;
+				color: #369;
+			}
+			#list {
+			}
+			#regno {
+				margin-bottom: 30px;
+				background: none repeat scroll 0 0 #FFFFFF;
+				border-color: #575757 silver silver #575757;
+				border-style: solid;
+				border-width: 1px;
+				box-shadow: 0.9px 2px 9px #D7D7D7 inset;
+				color: #4C4C4C;
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 1em;
+				height: 30px;
+				margin-top: 10px;
+				padding: 4px;
+				width: 364px;
+			}
+			.button{
+				height:40px;
+				width:100px;
+				margin:0 365px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="content">
+				<article>
+					Bubbles animation using only HTML5 and JS
+				</article>
+				<br />
+				<canvas id="canvas" data-processing-sources="example.pde" style="border: 1px solid black; margin:200;"></canvas>
+			<input type="button" class="button" onclick="getImage()" value="Get Image" />
+		</div>
+		</div>
+		<script type="text/javascript">
+			function getImage() {
+				var dataURL = document.getElementById("canvas").toDataURL();
+				window.location = dataURL;
+			};
+		</script>
+	</body>
+</html>

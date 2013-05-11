@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^url/(.*)?$ document/url.php?type=url&url=$1 [L]
